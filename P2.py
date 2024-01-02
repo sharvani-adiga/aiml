@@ -1,6 +1,3 @@
-# Online, manual
-# AO Star algorithm
-
 
 class Graph:
     def __init__(
