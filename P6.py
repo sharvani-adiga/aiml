@@ -3,7 +3,7 @@ from sklearn import tree
 from sklearn.preprocessing import LabelEncoder
 from sklearn.naive_bayes import GaussianNB
 
-data = pd.read_csv('p6.csv')
+data = pd.read_csv('traintennis.csv')
 print("The first 5 Values of data is :\n", data.head())
 
 X = data.iloc[:, :-1]
